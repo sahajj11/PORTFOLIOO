@@ -1,0 +1,66 @@
+/* Container for the toggle button */
+.theme-toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Toggle button styling */
+  .theme-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover effect for the button */
+  .theme-toggle-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Icon styling */
+  .theme-icon {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate the icon on hover */
+  .theme-toggle-btn:hover .theme-icon {
+    transform: rotate(20deg);
+  }
+  
+  /* Label styling */
+  .theme-label {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .theme-toggle-btn {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  
+    .theme-label {
+      font-size: 12px;
+    }
+  
+    .theme-icon {
+      font-size: 18px;
+    }
+  }
+  

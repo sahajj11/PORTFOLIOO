@@ -1,0 +1,50 @@
+/* html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(135deg, rgba(150, 200, 240, 0.9), rgba(220, 230, 240, 0.9));
+  min-height: 100%;
+
+}
+
+.dark-theme{
+  background-color: red;
+} */
+
+
+/* Default Theme Variables */
+:root {
+  --bg-color: linear-gradient(135deg, rgba(150, 200, 240, 0.9), rgba(220, 230, 240, 0.9));
+  --text-color: #000000;
+  --primary-color: #007bff;
+}
+
+/* Dark Theme Variables */
+html.dark {
+  --bg-color: #121212; /* Solid background for dark mode */
+  --text-color: #ffffff;
+  --primary-color: #1a73e8;
+}
+
+/* Apply Theme Variables Globally */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  
+}
+
+button.theme-toggle-btn {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+

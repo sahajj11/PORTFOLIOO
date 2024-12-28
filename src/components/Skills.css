@@ -1,0 +1,30 @@
+.icon-card {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f8f9fa; /* Bootstrap's light background */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: 160px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .icon-card img {
+    margin-bottom: 10px;
+  }
+  
+  .icon-card p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  /* Hover Effect */
+  .icon-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
