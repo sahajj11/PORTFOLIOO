@@ -1,0 +1,12 @@
+.dark {
+    --footer-text-color: #ffffff;
+  }
+
+
+  .f {
+    color: var(--footer-text-color);
+  }
+
+  .text-decoration-none {
+    color: var(--footer-text-color) !important;
+  }

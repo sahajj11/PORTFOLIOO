@@ -9,3 +9,18 @@
       width: 100%; 
     }
   }
+
+
+
+  .dark {
+   
+    --navbar-text: black;
+   
+  }
+
+
+  .nav-link {
+    text-decoration: none;
+    color: var(--navbar-text);
+   
+  }

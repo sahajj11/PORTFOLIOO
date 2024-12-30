@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css"
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
               src="https://img.icons8.com/3d-fluency/94/instagram-logo.png"
               alt="instagram-logo"
             />
-            <span>developerr_here</span>
+            <span className="f">developerr_here</span>
           </a>
         </div>
 
@@ -32,7 +33,7 @@ const Footer = () => {
               src="https://img.icons8.com/color/48/linkedin.png"
               alt="linkedin"
             />
-            <span>sahaj rajput</span>
+            <span className="f">sahaj rajput</span>
           </a>
         </div>
 
@@ -48,7 +49,7 @@ const Footer = () => {
               src="https://img.icons8.com/ios-glyphs/30/github.png"
               alt="github"
             />
-            <span>sahajj11</span>
+            <span className="f">sahajj11</span>
           </a>
         </div>
 
@@ -64,7 +65,7 @@ const Footer = () => {
               src="https://img.icons8.com/color/48/gmail-new.png"
               alt="gmail-new"
             />
-            <span>sahajrajput1112@gmail.com</span>
+            <span className="f">sahajrajput1112@gmail.com</span>
           </a>
         </div>
       </div>
