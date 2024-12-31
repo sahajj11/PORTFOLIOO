@@ -19,8 +19,13 @@
 }
 
 
-/* a-design */
-  /* .linkss{
+
+
+
+
+
+/* a-design  */
+  .linkss{
     color:rgb(34 197 94);
 
   }
@@ -34,10 +39,10 @@
   .st{
     background-color: black;
     color:rgb(34 197 94);
-  } */
+  } 
 
 /* b-design */
-  .st{
+  /* .st{
     background-color:rgb(34 197 94);
   }
 
@@ -58,7 +63,7 @@
 
   .linkss{
     color:#A52A2A;
-  }
+  } */
 
 
   @media (max-width: 768px) {

@@ -4,6 +4,7 @@ import photo from "./photo.png"
 import "./Hero.css"
 import portp from "./port_pic.png"
 import final from "./final-removebg-preview.png"
+import { SplitText } from "./SplitText";
 
 const Hero = () => {
   return (
@@ -12,7 +13,8 @@ const Hero = () => {
         
         <div className="text-container  p-3 mt-5 ml-3">
           <p className="fw-bold display-1 text-center">Hello!</p>
-          <p className="display-1 fw-bold text-center sah">Sahaj Rajput Here</p>
+          {/* <p className="display-1 fw-bold text-center sah">Sahaj Rajput Here</p> */}
+          <SplitText text="Sahaj Rajput " className="custom-class display-1 fw-bold text-center sah" delay={90} /><span className="display-1 fw-bold text-center sah">Here</span>
           <p className="display-5 text-center">
             Full Stack Web Developer
             <img
