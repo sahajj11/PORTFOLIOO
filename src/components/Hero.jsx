@@ -11,11 +11,11 @@ const Hero = () => {
     <>
       <div className="hero  d-flex  justify-content-center align-items-center">
         
-        <div className="text-container  p-3 mt-5 ml-3">
+        <div className="text-container  p-2 mt-5 ml-3">
           <p className="fw-bold display-1 text-center">Hello!</p>
           {/* <p className="display-1 fw-bold text-center sah">Sahaj Rajput Here</p> */}
-          <SplitText text="Sahaj Rajput Here" className="custom-class display-1 fw-bold text-center sah" delay={90} />
-          <p className="display-5 text-center">
+          <SplitText text="Sahaj Rajput Here" className="custom-class display-1 fw-bold text text-center sah" delay={90} />
+          <p className="display-5 mt-3 text-center">
             Full Stack Web Developer
             <img
               width="48"

@@ -23,7 +23,7 @@ body {
 
 /* Dark Theme Variables */
 html.dark {
-  --bg-color:linear-gradient(135deg, #1d2b64, #8e44ad);
+  --bg-color:black;
   /* Solid background for dark mode */
   --text-color: #ffffff;
   --primary-color: #1a73e8;
@@ -47,5 +47,3 @@ button.theme-toggle-btn {
   cursor: pointer;
   border-radius: 5px;
 }
-
-
