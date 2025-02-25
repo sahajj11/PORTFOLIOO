@@ -27,4 +27,12 @@
     transform: scale(1.1);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   }
+
+  .dark {
+    --navbar-text: black;
+}
+
+.dark .icon-card {
+    color: var(--navbar-text);
+}
   
