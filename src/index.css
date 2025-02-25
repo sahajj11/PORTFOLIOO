@@ -23,9 +23,11 @@ body {
 
 /* Dark Theme Variables */
 html.dark {
-  --bg-color:black;
+  --bg-color: linear-gradient(135deg, #000000, #0f2027, #203a43);
+
+
   /* Solid background for dark mode */
-  --text-color: #ffffff;
+  --text-color: white;
   --primary-color: #1a73e8;
 }
 
