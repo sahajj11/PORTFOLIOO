@@ -13,10 +13,14 @@
 
 
   .dark {
-   
     --navbar-text: black;
-   
-  }
+}
+
+.dark .nav-link {
+    color: var(--navbar-text);
+}
+
+
 
   .nav-link {
     text-decoration: none;

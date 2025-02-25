@@ -11,9 +11,11 @@ const About = () => {
         Back
       </button>
       <div className="d-flex justify-content-center">
-        <h4 className="border abt mt-4 bg-light  text-dark d-inline-block p-2">
-          About Me
-        </h4>
+      <h4 className="border abt mt-4 bg-light text-dark d-inline-block p-2 rounded shadow-sm">
+  About Me
+</h4>
+
+
       </div>
 
       <div className="info">
