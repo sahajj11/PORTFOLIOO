@@ -1,29 +1,41 @@
-.navbar{
-    border-radius: 30px;
-    width:50%;
-    
+.navbar {
+  border-radius: 30px;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive width adjustments */
+@media (max-width: 1024px) {
+  .navbar {
+      width: 70%;
+  }
 }
 
 @media (max-width: 768px) {
-    .navbar {
-      width: 100%; 
-    }
+  .navbar {
+      width: 90%; 
+      border-radius: 20px; /* Slightly reduced for better look */
   }
+}
 
+@media (max-width: 480px) {
+  .navbar {
+      width: 100%;
+      border-radius: 15px; /* More compact for small screens */
+  }
+}
 
-
-  .dark {
-    --navbar-text: black;
+/* Dark mode styling */
+.dark {
+  --navbar-text: black;
 }
 
 .dark .nav-link {
-    color: var(--navbar-text);
+  color: var(--navbar-text);
 }
 
-
-
-  .nav-link {
-    text-decoration: none;
-    color: var(--navbar-text);
-   
-  }
+/* Navbar links */
+.nav-link {
+  text-decoration: none;
+  color: var(--navbar-text);
+}
