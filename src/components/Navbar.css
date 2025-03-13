@@ -15,7 +15,8 @@
   .navbar {
       width: 95%; 
       border-radius: 20px; /* Slightly reduced for better look */
-      gap: 2rem;
+      gap: 1rem;
+      font-size: 32px;
   }
 }
 
